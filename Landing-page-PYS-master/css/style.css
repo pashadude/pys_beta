@@ -63,6 +63,18 @@ header h1 {
 	font: 60px/1.1 "clio_ultra_black_itultrablack";
 }
 
+
+header input[type="email"]{
+	height:45px !important; 
+}
+
+
+header input[type="text"], header input[type="password"]{
+	height:30px !important;
+}
+
+
+
 body {
 	font-family: 'Open Sans', 'Lucida Sans Unicode', verdana, 'Lucida Grande', sans-serif;
 	font-size:12px;
@@ -335,8 +347,17 @@ form {
 		font: 1em/1.5em "clio_regularregular";
 	}
 
-	#pane4 ul li {
+	#pane4 ul li, #pane4 ul li a {
         color:#9d1a1a;
+
+	}
+
+	#pane4 ul {
+		margin-left: 0;
+	}
+
+	#pane4 ul li i{
+		margin-right: 4px;
 	}
 
 	ul.red-tick li {
@@ -345,31 +366,6 @@ form {
 	margin-bottom: 10px;
 }
 
-
-
-
-
-/* ---------------------------------------------------------------------- */
-/*	Pricing Table
-/* ---------------------------------------------------------------------- */
-
-
-#final-part {
-
-	border-bottom: 2px solid #E7E7E7;
-	border-top: 2px solid #E7E7E7;
-	padding:60px 0;
-}
-
-	.buttons-area {
-		text-align: center;
-		margin:0 auto;
-	}
-
-
-/* ---------------------------------------------------------------------- */
-/*	Buttons
-/* ---------------------------------------------------------------------- */
 
 
 
@@ -466,163 +462,48 @@ form {
 /* ---------------------------------------------------------------------- */
 /*	Footer
 /* ---------------------------------------------------------------------- */
+    footer {
+    	background-color: #9d1a1a;
+    }
 
-#footer {
+    footer ul {
+    	padding: 0;
+    	margin: 0;
+    }
 
-}
-	#footer .boxed {
+	footer .boxed {
 		padding-right:15px;
 	}
 
-	#footer p {
-		margin-bottom: 10px;
-		color:#000000;
+	footer p {
+		color:#FFF;
+		font-size: 1.4em;
+		font-family: 'clio_regularregular', sans-serif;
+	    line-height: 1.6em;
 	}
 
-	#footer a {
-		color: #000000;
+	footer ul li {
+		color:#FFF;
+		font-size: 1.4em;
+		font-family: 'clio_regularregular', sans-serif;
+	    line-height: 2em;
 	}
 
-	#footer a:hover {
-		color: #000000;
+	footer a {
+		color:#FFF;
 	}
 
-	#footer h2 {
-		text-shadow: none;
-		font-weight: bold;
-		font-size: 17px;
-		color: #000000;
-		border: none;
-		text-align: left;
-		padding-bottom:0px;
-		margin-bottom: 10px;
-		border-bottom: 1px dotted #2a3436;
+	footer i {
+		margin-right: 6px;
 	}
 
-	#footer strong {
-		color:#000000;
-		font-weight: normal;
+	footer h5 {
+		color:#FFF;
+		font: 1.8em/3em "clio_ultra_black_itultrablack";
+		margin:0;
+		text-align:left;
 	}
 
-	/* ---------------------------------------------------------------------- */
-	/*	Footer Social Icons
-	/* ---------------------------------------------------------------------- */
-	.contact-details li {
-		list-style: block;
-		margin-bottom: 10px;
-		padding-left:30px;
-	}
-
-		.contact-details li.home {
-			background: url(../img/mini-icons/home.png) no-repeat left center;
-		}
-
-		.contact-details li.phone {
-			background: url(../img/mini-icons/phone.png) no-repeat left center;
-		}
-
-		.contact-details li.mail {
-			background: url(../img/mini-icons/mail.png) no-repeat left center;
-		}
-
-		.contact-details li.star {
-			background: url(../img/mini-icons/star.png) no-repeat left center;
-		}
-
-
-/* ---------------------------------------------------------------------- */
-/*	Footer Bottom Part
-/* ---------------------------------------------------------------------- */
-.footer-bottom {
-	margin-top: 25px;
-	padding:15px 0;
-	text-align: center;
-}
-
-	.footer-bottom p {
-		color: #FFF;
-		margin-bottom: 0;
-	}
-
-	/* ---------------------------------------------------------------------- */
-	/*	Bottom Social bookmarks
-	/* ---------------------------------------------------------------------- */
-	.social-bookmarks {
-		padding: 0;
-		margin: 0;
-		list-style-type: none;
-		margin-top: 30px;
-	}
-
-	.social-bookmarks li {
-		float: left;
-		margin-right:6px;
-		margin-bottom: 8px;
-		display: inline;
-		width: auto;
-		background-color: #252e30;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-		border-radius: 50%;
-	}
-	.social-bookmarks li a {
-		-moz-transition: all 0.3s ease 0s;
-		display: block;
-		float: left;
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		width: 40px;
-		height: 40px;
-		text-indent: -9999px;
-	}
-
-	.social-bookmarks li.twitter a {background: url(../img/social-icons/twitter.png) no-repeat 0 0;}
-	.social-bookmarks li.twitter a:hover {background-color: #48c4d2;}
-	.social-bookmarks li.facebook a {background: url(../img/social-icons/facebook.png) no-repeat 0 0;}
-	.social-bookmarks li.facebook a:hover {background-color: #3b5998;}
-	.social-bookmarks li.dribbble a {background: url(../img/social-icons/dribbble.png) no-repeat 0 0;}
-	.social-bookmarks li.dribbble a:hover {background-color: #ef5b92;}
-	.social-bookmarks li.googleplus a {background: url(../img/social-icons/googleplus.png) no-repeat 0 0;}
-	.social-bookmarks li.googleplus a:hover {background-color: #d94a39;}
-	.social-bookmarks li.flickr a {background: url(../img/social-icons/flickr.png) no-repeat 0 0;}
-	.social-bookmarks li.flickr a:hover {background-color: #f1628b;}
-	.social-bookmarks li.linkedin a {background: url(../img/social-icons/linkedin.png) no-repeat 0 0;}
-	.social-bookmarks li.linkedin a:hover {background-color: #71b2d0;}
-
-	.social-bookmarks li a:hover {
-		background-position: 0 -40px;
-		background-color: #FFF;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-		border-radius: 50%;
-	}
-
-	.thumbnail-extra {
-		background: #fbd568;
-		background: -moz-linear-gradient(#fbd568, #ffb347);
-		background: -ms-linear-gradient(#fbd568, #ffb347);
-		background: -o-linear-gradient(#fbd568, #ffb347);
-		background: -webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
-		background: -webkit-linear-gradient(#fbd568, #ffb347);
-		background: linear-gradient(#fbd568, #ffb347);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b2123', endColorstr='#1c2224',GradientType=0 );
-		color: #996319;
-		border-radius: 4px;
-		font-family: 'Open Sans', Lucida sans unicode, Arial, sans-serif;
-		font-size: 13px;
-		text-transform: uppercase;
-		text-align: center;
-		font-weight: bold;
-		padding: 7px;
-    }
-
-    .icon-flag.logo-icon {
-	  width: 28px;  // 14px * 2
-	  height: 28px; // 14px * 2
-	  background-size: 938px 318px;  // original dimensions * 2
-	  background-position: -624px -48px;  // original position * 2
-	}
 
 /* ---------------------------------------------------------------------- */
 /*	Media Query cusomization for responsiveness

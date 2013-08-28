@@ -97,29 +97,26 @@
 }
 
 .form-area input[type="submit"], #buttom-subscribe input[type="submit"] {
-	border: 1px solid rgba(0,0,0,0.05);
-	font-weight:bold;
-	font-size: 13px;
-	text-transform: uppercase;
-	background: #fbd568;
-	background: -moz-linear-gradient(#fbd568, #ffb347);
-	background: -ms-linear-gradient(#fbd568, #ffb347);
-	background: -o-linear-gradient(#fbd568, #ffb347);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
-	background: -webkit-linear-gradient(#fbd568, #ffb347);
-	background: linear-gradient(#fbd568, #ffb347);
-	color: #996319;
+	color:#ffffff;
+	font-size: 16px;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color:#5bb75b;
+	background-image:-moz-linear-gradient(top, #62c462, #51a351);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+	background-image:-webkit-linear-gradient(top, #62c462, #51a351);
+	background-image:-o-linear-gradient(top, #62c462, #51a351);
+	background-image:linear-gradient(to bottom, #62c462, #51a351);
+	background-repeat:repeat-x;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+	border-color:#51a351 #51a351 #387038;
+	border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color:#51a351;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);	
 }
 
 .form-area input[type="submit"]:hover, #buttom-subscribe input[type="submit"]:hover {
-	background: #65bdfe;
-	background: -moz-linear-gradient(top, #65bdfe 0%, #429cff 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#65bdfe), color-stop(100%,#429cff));
-	background: -webkit-linear-gradient(top, #65bdfe 0%,#429cff 100%);
-	background: -o-linear-gradient(top, #65bdfe 0%,#429cff 100%);
-	background: -ms-linear-gradient(top, #65bdfe 0%,#429cff 100%);
-	background: linear-gradient(to bottom, #65bdfe 0%,#429cff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65bdfe', endColorstr='#429cff',GradientType=0 );
-	color: #FFF;
-	border: 1px solid rgba(0,0,0.5);
+	color:#ffffff;
+	background-color:#51a351;
+	*background-color:#499249;
 }
+
